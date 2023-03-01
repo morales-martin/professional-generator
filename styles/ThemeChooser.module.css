@@ -1,0 +1,22 @@
+ 
+  .container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  /* MOBILE  */
+  @media (max-width: 700px) {
+    .wrapper {
+      display: flex;
+      position: relative;
+      width: 100vw;
+      height: max-content;
+    }
+  
+    .container {
+      position: static;
+      margin: auto;
+    }
+  }
+  

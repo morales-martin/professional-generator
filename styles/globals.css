@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #dda15e;
+  --secondary: #fefae0;
+  --ternary: #bc6c25;
+
+  --primary-rgb: 221, 161, 94;
+  --secondary-rgb: 254, 250, 224;
+  --ternary-rgb: 188, 108, 37;
+}
+
+html,body {
+  transition: 0.3s;
+}
