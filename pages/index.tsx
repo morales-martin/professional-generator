@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   const [generatedPrompts, setGeneratedPrompts] = useState<String>("");
 
   const prompt = `Generate 2 professional statements clearly labeled "1." and "2.". Make sure each generated statement is at max 255 characters and base it on this context: ${promptInput}${
-    promptInput.slice(-1) === "." ? "" : "."
+    promptInput[promptInput.length - 1] === "." ? "" : "."
   }`;
 
   const generatePrompt = async (e: any) => {

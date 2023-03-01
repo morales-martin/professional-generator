@@ -7,16 +7,16 @@
   
   /* MOBILE  */
   @media (max-width: 700px) {
-    .wrapper {
+    /* .wrapper {
       display: flex;
       position: relative;
       width: 100vw;
       height: max-content;
-    }
+    } */
   
-    .container {
+    /* .container {
       position: static;
       margin: auto;
-    }
+    } */
   }
   
